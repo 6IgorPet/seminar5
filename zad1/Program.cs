@@ -25,5 +25,5 @@ void SumNumbersOddPosition(int[] array)
     {
         if (i % 2 != 0) sum += array[i] ;
     }
-    Console.WriteLine($"Вывод суммы чисел, находящихся на нечетных позициях  {sum}");
+    Console.WriteLine($"Вывод суммы чисел, находящихся на четных позициях  {sum}");
 }
